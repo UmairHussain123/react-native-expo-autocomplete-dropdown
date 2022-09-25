@@ -1,0 +1,17 @@
+{
+  "name": "react-native-expo-autocomplete-dropdown",
+  "version": "1.0.0",
+  "description": "react native auto complete dropdown",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native-autocomplete",
+    "react-native-autoComplete-dropdown",
+    "react-native-expo-autoComplete-dropdown",
+    "autocompletedropdwon-for-react-native"
+  ],
+  "author": "Umair Hussain <umair.umair2d@gmail.com>",
+  "license": "ISC"
+}
