@@ -19,7 +19,7 @@ IOS and android
 ## Usage
 
 ```js
-import { Autocomplete } from "react-native-expo-autocomplete-dropdown";
+import { AutoComplete } from "react-native-expo-autocomplete-dropdown";
 ```
 
 ## DateSet
