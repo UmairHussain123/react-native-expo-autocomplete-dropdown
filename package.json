@@ -1,8 +1,8 @@
 {
   "name": "react-native-expo-autocomplete-dropdown",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "react native auto complete dropdown",
-  "main": "App.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,5 +13,13 @@
     "autocompletedropdwon-for-react-native"
   ],
   "author": "Umair Hussain <umair.umair2d@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UmairHussain123/react-native-expo-autocomplete-dropdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UmairHussain123/react-native-expo-autocomplete-dropdown/issues"
+  },
+  "homepage": "https://github.com/UmairHussain123/react-native-expo-autocomplete-dropdown#readme"
 }

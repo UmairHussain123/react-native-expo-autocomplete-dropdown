@@ -5,7 +5,7 @@ Dropdown Item picker with search and autocomplete (typeahead) functionality for 
 ## Demo
 
 <p style="text-align: center;" align="center">
-    <img src="./imageExample.jpg" width="500px" >
+    <img src="https://raw.githubusercontent.com/UmairHussain123/react-native-expo-autocomplete-dropdown/b807d0a20b767a6777916fe663e83dbaea2083d5/imageExample.jpg?token=GHSAT0AAAAAABZFTTRKT2GKFHFUT4Z4UJXAYZSARHQ" height="450"/>
 </p>
 
 ## Installation
@@ -19,7 +19,7 @@ IOS and android
 ## Usage
 
 ```js
-import { AutoComplete } from "react-native-expo-autocomplete-dropdown";
+import AutoComplete from "react-native-expo-autocomplete-dropdown";
 ```
 
 ## DateSet
@@ -37,7 +37,7 @@ import { AutoComplete } from "react-native-expo-autocomplete-dropdown";
 
 ```js
 import { StyleSheet, Text, View } from "react-native";
-import { Autocomplete } from "react-native-expo-autocomplete-dropdown";
+import AutoComplete from "react-native-expo-autocomplete-dropdown";
 
 export default function App() {
   const handleCallback = (childData) => {
