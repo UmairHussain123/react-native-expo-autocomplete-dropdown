@@ -5,7 +5,7 @@ Dropdown Item picker with search and autocomplete (typeahead) functionality for 
 ## Demo
 
 <p style="text-align: center;" align="center">
-    <img src="https://ibb.co/rZGrFW9"/>
+    <img src="https://i.ibb.co/fCYwqcJ/image-Example.jpg"/>
 </p>
 
 ## Installation
