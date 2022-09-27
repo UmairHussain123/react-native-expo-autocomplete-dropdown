@@ -5,7 +5,7 @@ Dropdown Item picker with search and autocomplete (typeahead) functionality for 
 ## Demo
 
 <p style="text-align: center;" align="center">
-    <img src="https://raw.githubusercontent.com/UmairHussain123/react-native-expo-autocomplete-dropdown/b807d0a20b767a6777916fe663e83dbaea2083d5/imageExample.jpg?token=GHSAT0AAAAAABZFTTRKT2GKFHFUT4Z4UJXAYZSARHQ" height="450"/>
+    <img src="https://ibb.co/rZGrFW9"/>
 </p>
 
 ## Installation
