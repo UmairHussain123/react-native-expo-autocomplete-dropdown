@@ -45,8 +45,7 @@ export default function AutoComplete(prop) {
         style={{
           alignSelf: "center",
           alignContent: "center",
-
-          position: "absolute",
+          // position: "absolute",
         }}
       >
         <TextInput
@@ -60,7 +59,7 @@ export default function AutoComplete(prop) {
             height: 50,
             borderWidth: 0.5,
             borderColor: "black",
-            borderBottomColor: prop.borderBottomColor,
+            borderBottomColor: absenceTypeBorderBottomColor,
 
             borderBottomWidth: prop.borderBottomWidth,
             borderRadius: prop.borderRadius,
@@ -76,7 +75,7 @@ export default function AutoComplete(prop) {
           onFocus={() => {
             setLeaveFlag(true);
             arryFilter();
-            setAbsenceTypeBorderBottomColor("#006e51");
+            setAbsenceTypeBorderBottomColor(prop.onFocusBottomColor);
           }}
           onBlur={() => {
             setLeaveFlag(false);
@@ -87,7 +86,7 @@ export default function AutoComplete(prop) {
                   onTrigger(item);
                 }
               });
-            setAbsenceTypeBorderBottomColor("black");
+            setAbsenceTypeBorderBottomColor(prop.absenceTypeBorderBottomColor);
           }}
         />
 
@@ -96,7 +95,7 @@ export default function AutoComplete(prop) {
             position: "absolute",
             top: 50,
             height: 135,
-            elevation: 1,
+            elevation: 2,
             zIndex: 1000,
           }}
         >
@@ -105,7 +104,7 @@ export default function AutoComplete(prop) {
             keyboardShouldPersistTaps={"always"}
             nestedScrollEnabled={true}
           >
-            {console.log(arr && arr.length)}
+            {/* {console.log(arr && arr.length)} */}
             {leaveFlag
               ? arr.map((item, index) => {
                   return (
