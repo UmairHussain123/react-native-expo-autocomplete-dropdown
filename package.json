@@ -1,10 +1,14 @@
 {
   "name": "react-native-expo-autocomplete-dropdown",
-  "version": "1.0.9",
+  "version": "1.0.11",
   "description": "react native auto complete dropdown",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "17.0.1",
+    "react-native": "0.64.3"
   },
   "keywords": [
     "react-native-autocomplete",
@@ -21,5 +25,6 @@
   "bugs": {
     "url": "https://github.com/UmairHussain123/react-native-expo-autocomplete-dropdown/issues"
   },
-  "homepage": "https://github.com/UmairHussain123/react-native-expo-autocomplete-dropdown#readme"
+  "homepage": "https://github.com/UmairHussain123/react-native-expo-autocomplete-dropdown#readme",
+  "devDependencies": {}
 }

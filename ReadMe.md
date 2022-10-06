@@ -83,6 +83,10 @@ const styles = StyleSheet.create({
 });
 ```
 
+## Note:
+
+Some time scroll not work so use on main View zIndex:10
+
 ## Options
 
 | **Option**                        | **Description**                      | **Type** | **Default** |
