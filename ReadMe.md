@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
 
 ## Note:
 
-Some time scroll not work so use on main View zIndex:10
+Some time scroll not work so use "flex:1"
 
 ## Options
 
