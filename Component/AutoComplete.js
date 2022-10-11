@@ -1,8 +1,6 @@
-import { StatusBar } from "expo-status-bar";
 import {
   StyleSheet,
   Text,
-  Touchable,
   View,
   TouchableOpacity,
   ScrollView,
@@ -10,7 +8,7 @@ import {
   Dimensions,
 } from "react-native";
 
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 export default function AutoComplete(prop) {
   const [attResonId, setAttResonId] = useState();
@@ -100,7 +98,6 @@ export default function AutoComplete(prop) {
           }}
         >
           <ScrollView
-            style={{}}
             keyboardShouldPersistTaps={"always"}
             nestedScrollEnabled={true}
           >
@@ -111,6 +108,7 @@ export default function AutoComplete(prop) {
                     <View
                       key={index}
                       style={{
+                        // zIndex:100,
                         width:
                           prop.widthBySide &&
                           Dimensions.get("screen").width - prop.widthBySide,
@@ -121,6 +119,7 @@ export default function AutoComplete(prop) {
                         elevation: 10,
                         borderBottomWidth: 0.5,
                         backgroundColor: prop.listBackgroundColor,
+                        // zIndex:1000
                       }}
                     >
                       <TouchableOpacity

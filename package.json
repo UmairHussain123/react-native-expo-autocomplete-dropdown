@@ -1,14 +1,15 @@
 {
   "name": "react-native-expo-autocomplete-dropdown",
-  "version": "1.0.11",
+  "version": "1.0.18",
   "description": "react native auto complete dropdown",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "react": "17.0.1",
-    "react-native": "0.70.2"
+    "react": "18.0.0",
+    "react-native": "0.69.6"
   },
   "keywords": [
     "react-native-autocomplete",
