@@ -51,6 +51,7 @@ export default function AutoComplete(prop) {
           value={leaveVal}
           placeholderTextColor={prop.placeholderTextColor}
           style={{
+            backgroundColor: prop.backgroundColorTextInput,
             width:
               prop.widthBySide &&
               Dimensions.get("screen").width - prop.widthBySide,

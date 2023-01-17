@@ -61,6 +61,7 @@ export default function App() {
         ]}
         widthBySide={30}
         placeholder={"select fruit"}
+        backgroundColorTextInput={"black"}
         placeholderTextColor={"green"}
         borderBottomColor={"green"}
         onFocusBottomColor={"black"}
@@ -88,7 +89,7 @@ const styles = StyleSheet.create({
 
 ## Note:
 
-Some time scroll not work so use "flex:1"
+Some time scroll not work so use "flex:1" in parents component
 
 ## Options
 
