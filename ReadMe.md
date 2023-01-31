@@ -71,6 +71,7 @@ export default function App() {
         listElevation={7}
         listBackgroundColor={"white"}
         listTextColor={"black"}
+        borderBottomColor={"black"}
         parentCallback={handleCallback}
       ></AutoComplete>
     </View>

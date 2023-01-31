@@ -119,6 +119,7 @@ export default function AutoComplete(prop) {
                         padding: 7,
                         elevation: 10,
                         borderBottomWidth: 0.5,
+                        borderBottomColor: prop.borderBottomColor,
                         backgroundColor: prop.listBackgroundColor,
                         // zIndex:1000
                       }}
